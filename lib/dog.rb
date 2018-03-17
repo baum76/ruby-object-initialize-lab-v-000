@@ -19,4 +19,10 @@ class Dog
   def breed
     @breed
   end
+
+  def default_breed
+    if breed != true
+      puts "Mutt"
+    end
+  end
 end
