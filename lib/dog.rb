@@ -19,8 +19,6 @@ class Dog
 
   def breed
     @breed
-    @default_breed
+    @default_breed = "Mutt"
   end
 end
-
-default_breed.new("Mutt")
