@@ -18,5 +18,7 @@ class Dog
 
   def breed
     @breed
-  end        
+    if !@breed
+      puts "Mutt"
+  end
 end
