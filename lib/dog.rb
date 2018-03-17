@@ -22,3 +22,5 @@ class Dog
     @default_breed
   end
 end
+
+default_breed.new("Mutt")
