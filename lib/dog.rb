@@ -17,8 +17,6 @@ class Dog
   end
 
   def breed
-    if @breed != true
-      "Mutts"
-    end  
+    @breed
   end
 end
